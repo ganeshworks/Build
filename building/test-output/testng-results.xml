@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-04T22:54:08 IST" name="Default suite" finished-at="2024-12-04T22:54:44 IST" duration-ms="35541">
+  <suite started-at="2024-12-05T22:01:31 IST" name="building" finished-at="2024-12-05T22:02:09 IST" duration-ms="38358">
     <groups>
     </groups>
-    <test started-at="2024-12-04T22:54:08 IST" name="Default test" finished-at="2024-12-04T22:54:44 IST" duration-ms="35541">
+    <test started-at="2024-12-05T22:01:31 IST" name="MyLpgBook login" finished-at="2024-12-05T22:02:09 IST" duration-ms="38358">
       <class name="testcases.Tc_01_Login">
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@18d87d80]" started-at="2024-12-04T22:54:10 IST" name="login" data-provider="loginData" finished-at="2024-12-04T22:54:16 IST" duration-ms="6176" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@1e04fa0a]" started-at="2024-12-05T22:01:32 IST" name="login" data-provider="loginData" finished-at="2024-12-05T22:01:41 IST" duration-ms="9075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@18d87d80]" started-at="2024-12-04T22:54:16 IST" name="login" data-provider="loginData" finished-at="2024-12-04T22:54:25 IST" duration-ms="8683" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@1e04fa0a]" started-at="2024-12-05T22:01:41 IST" name="login" data-provider="loginData" finished-at="2024-12-05T22:01:49 IST" duration-ms="7510" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@18d87d80]" started-at="2024-12-04T22:54:25 IST" name="login" data-provider="loginData" finished-at="2024-12-04T22:54:35 IST" duration-ms="9908" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@1e04fa0a]" started-at="2024-12-05T22:01:49 IST" name="login" data-provider="loginData" finished-at="2024-12-05T22:02:01 IST" duration-ms="12525" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@18d87d80]" started-at="2024-12-04T22:54:35 IST" name="login" data-provider="loginData" finished-at="2024-12-04T22:54:44 IST" duration-ms="9487" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@1e04fa0a]" started-at="2024-12-05T22:02:01 IST" name="login" data-provider="loginData" finished-at="2024-12-05T22:02:09 IST" duration-ms="7884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,6 +72,6 @@
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- testcases.Tc_01_Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- MyLpgBook login -->
+  </suite> <!-- building -->
 </testng-results>
