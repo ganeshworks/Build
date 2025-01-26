@@ -10,8 +10,8 @@ import test_Utilities.ExcelDataSupplier;
 public class Tc_01_Login extends BaseClass {
 
 	 @Test(dataProvider = "loginData", dataProviderClass = ExcelDataSupplier.class, priority = 1)
-	    public void login(String AgencyId, String Password) {
-
+	    public void login(String AgencyId, String Password) throws Exception {
+		 Thread.sleep(2000);
 	        // Set the ChromeDriver path
 	        System.setProperty("webdriver.chrome.driver", read.getchromepath()); // Update the path to your chromedriver
 
