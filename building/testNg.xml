@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="building" parallel="none" thread-count="5">
+	
+	<test name="MyLpgBook login">
+		<classes>
+			<class name="testcases.Tc_01_Login" />
+		</classes>
+	</test>
+</suite>
+
+<!--class name="testCases.Tc_001_Product_Master" -->
+<!--class name="testCases.Tc_002_Price_Master" -->
+<!--class name="testCases.Tc_003_CustVendor_Master" -->
+<!--class name="testCases.Tc_004_SetCreditLimit" -->
+<!--class name="testCases.Tc_005_BankMaster" -->
+<!--class name="testCases.Tc_006_vehicleMaster" -->
+<!--class name="testCases.Tc_007_StaffMaster" -->
+<!--class name="testCases.Tc_008_Stock_Adjustment" -->
+<!--class name="testCases.Tc_009_SetAlert" -->

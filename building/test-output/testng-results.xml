@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-05T22:01:31 IST" name="building" finished-at="2024-12-05T22:02:09 IST" duration-ms="38358">
+    <groups>
+    </groups>
+    <test started-at="2024-12-05T22:01:31 IST" name="MyLpgBook login" finished-at="2024-12-05T22:02:09 IST" duration-ms="38358">
+      <class name="testcases.Tc_01_Login">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@1e04fa0a]" started-at="2024-12-05T22:01:32 IST" name="login" data-provider="loginData" finished-at="2024-12-05T22:01:41 IST" duration-ms="9075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3333333333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@1e04fa0a]" started-at="2024-12-05T22:01:41 IST" name="login" data-provider="loginData" finished-at="2024-12-05T22:01:49 IST" duration-ms="7510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1213121212]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[31321321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@1e04fa0a]" started-at="2024-12-05T22:01:49 IST" name="login" data-provider="loginData" finished-at="2024-12-05T22:02:01 IST" duration-ms="12525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testcases.Tc_01_Login@1e04fa0a]" started-at="2024-12-05T22:02:01 IST" name="login" data-provider="loginData" finished-at="2024-12-05T22:02:09 IST" duration-ms="7884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testcases.Tc_01_Login -->
+    </test> <!-- MyLpgBook login -->
+  </suite> <!-- building -->
+</testng-results>
