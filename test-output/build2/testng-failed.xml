@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [build2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MyLpgBook login(failed)">
+    <classes>
+      <class name="testcases.Tc_01_Login">
+        <methods>
+          <include name="login" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- testcases.Tc_01_Login -->
+    </classes>
+  </test> <!-- MyLpgBook login(failed) -->
+</suite> <!-- Failed suite [build2] -->
